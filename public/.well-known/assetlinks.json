@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.bloodmxxn.twa",
+      "sha256_cert_fingerprints": [
+        "BD:2E:78:69:01:CA:8B:52:B8:BA:A2:ED:B1:F6:CE:00:59:84:A9:C1:11:30:71:00:3D:D5:9F:16:13:D2:FD:0C"
+      ]
+    }
+  }
+]
