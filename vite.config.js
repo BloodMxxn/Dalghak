@@ -19,10 +19,10 @@ export default defineConfig({
         name: "My PWA",
         short_name: "My PWA",
         theme_color: "#ffffff",
-        display: "fullscreen",
-        orientation: "portrait",
-        start_url: "/",
-        scope: "/",
+        display: "standalone",
+        start_url: "/Dalghak/",
+        scope: "/Dalghak/",
+        orientation: "portrait-primary",
         icons: [
           {
             src: "icon_192.png",
