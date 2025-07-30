@@ -4,6 +4,11 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    outDir: "dist",
+    // برای کپی فایل‌های پنهان
+    assetsInclude: ["**/*.json", "**/.well-known/**"],
+  },
   base: "/Dalghak",
   plugins: [
     react(),
